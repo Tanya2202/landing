@@ -36,19 +36,38 @@
 	width: 950px;
 }
 
-.menuTopNav li {
-	float: left;
+.menuTopNav ul{
+    height: 85px;
+    margin-bottom: 0;
+}
+.menuTopNav li{
+	
+}
+.menuTopNav li >a {
+  float: left;
+  font-size: 20px;
+  font-family: "Untitled";
+  color: rgb(255, 255, 255);
+  text-align: right;
+  padding: 20px 30px 38px 20px;
+  text-decoration: none;
 }
 
-
+.menuTopNav li >a:hover {
+ border-top: 5px solid #0296ea;
+ background: rgb(0,0,0,0.4);	
+}
+.head{
+	padding-top: 125px;
+    padding-bottom: 55px;
+}
 .number{
   font-size: 24px;
   font-family: "Exo2.0";
   color: #fff;
   background: url(../img/phone.png) no-repeat;
-      float: left;
-    padding-left: 650px;
-    margin-top: 25px;
+  background-position: left;
+  margin-top: 25px;
 }
 
 .Russia{
@@ -114,8 +133,6 @@ display: inline;
   color: #fff;
   text-transform: uppercase;
   text-align: center;
-  padding: 0 508px;
-  margin: 0;
 }
 .head p{
   font-size: 72px;
@@ -186,17 +203,18 @@ font-size: 36px;
  border-left: none;
  border-right: none;
  }
+ .btnHeader{
+ 	text-align: center;
+ 	margin-top: 100px;
+ }
   .btn-header{
   font-size: 18px;
   /*font-family: "Untitled";*/
   color: rgb(255, 255, 255);
  background-color:  rgb(255, 255, 255, 0);
   text-transform: uppercase;
-  text-align: center;
- margin-left: 900px;
  height: 80px;
  width: 200px;
- margin-top: 450px;
  border-bottom: 2px solid #fff;
  border-top: 2px solid #fff;
  border-left: none;
