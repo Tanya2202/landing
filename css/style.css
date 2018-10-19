@@ -30,14 +30,60 @@
 	float: left;
 	width: 950px;
 }
+.headerPhonesBl{
+	width: 550px;
+	float: right;
+	margin: 30px 0 25px 0;
+}
+.number{
+	font-size: 26px;
+	font-family: "Exo2.0";
+	color: #fff;
+	background: url(../img/phone.png) no-repeat;
+	background-position: left;
+	float: left;
+	width: 220px;
+	margin-right: 20px;
+	padding: 5px 0 5px 40px;
+}
+.contactUs{
+	background-color: #0296ea;
+	width: 170px;
+	height: 30px;
+	border-radius: 20px;
+	font-size: 12px;
+	/*font-family: "Untitled";*/
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 20px 0 0;
+	border: none;
+}
 
+.feedback{
+	float: left;
+	width: 170px;
+}
+.lang{
+	float: left;
+	width: 90px;
+}
+#language{
+  font-size: 16px;
+  font-family: "Exo2.0";
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
 .menuTopNav{
 	float: left;
 	width: 950px;
 }
 
 .menuTopNav ul{
-    height: 85px;
     margin-bottom: 0;
 }
 .menuTopNav li{
@@ -49,60 +95,32 @@
   font-family: "Untitled";
   color: rgb(255, 255, 255);
   text-align: right;
-  padding: 20px 30px 38px 20px;
+  padding: 20px 30px 30px 24px;
   text-decoration: none;
+  border-top: 5px solid transparent;
 }
 
 .menuTopNav li >a:hover {
- border-top: 5px solid #0296ea;
- background: rgb(0,0,0,0.4);	
+	border-top: 5px solid #0296ea;
+	background: rgb(0,0,0,0.4);	
 }
 .head{
 	padding-top: 125px;
     padding-bottom: 55px;
 }
-.number{
-  font-size: 24px;
-  font-family: "Exo2.0";
-  color: #fff;
-  background: url(../img/phone.png) no-repeat;
-  background-position: left;
-  margin-top: 25px;
-}
+
 
 .Russia{
    border-left: 2px solid #fff;
    margin-left: 2px; 
    padding-left: 10px;	
 }
-#language{
-  font-size: 16px;
-  font-family: "Exo2.0";
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
-  float: left;
-}
+
 .logo{
 	float: left;
 	margin: 30px 70px 20px 10px;	
 }
-.feedback p{
-  font-size: 12px;
-  /*font-family: "Untitled";*/
-  color: #fff;
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 0;
-  margin-top: 8px;
-  float: left;
-}
-.feedback {
-  background-color: #0296ea;
-  width: 170px;
-  height: 30px;
-  border-radius: 20px;
-}
+
 .menu-top-nav{
 
 }
@@ -145,9 +163,10 @@ display: inline;
 .work{
  background: url(../img/background_h.png) repeat, url(../img/work.png) center no-repeat;
   height: 400px;
-  width: 580px;
+  width: 560px;
   border: 10px solid #0296ea;
- 
+  float: left;
+ margin-right: 20px;
  }
  .work #h3{
 font-size: 36px;
@@ -184,8 +203,9 @@ font-size: 36px;
  .service{
  background: url(../img/background_h.png) repeat, url(../img/service.png) center no-repeat;
   height: 400px;
-  width: 580px;
+  width: 560px;
   border: 10px solid #0296ea;	
+  float: left;
  }
  .btn{
   font-size: 18px;
