@@ -25,7 +25,6 @@
 .clear{
 	clear: both;
 }
-
 .headerPhones{
 	float: left;
 	width: 950px;
@@ -52,7 +51,7 @@
 	height: 30px;
 	border-radius: 20px;
 	font-size: 12px;
-	/*font-family: "Untitled";*/
+	font-family: "Exo2.0", sans-serif;
 	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
@@ -94,7 +93,7 @@
 .menuTopNav li >a {
   float: left;
   font-size: 20px;
-  font-family: "Untitled";
+  font-family: "Exo2.0", sans-serif;
   color: rgb(255, 255, 255);
   text-align: right;
   padding: 20px 30px 26px 24px;
@@ -135,7 +134,7 @@
 .menu-top-nav #navbar li{
 display: inline;
   font-size: 20px;
- /* font-family: "Untitled";*/
+ font-family: "Exo2.0", sans-serif;
   color: #fff;
 
 }
@@ -149,7 +148,7 @@ display: inline;
 }
 .description p{
   font-size: 36px;
- /* font-family: "Untitled";*/
+ font-family: "Exo2.0", sans-serif;
   color: #fff;
   text-transform: uppercase;
   text-align: center;
@@ -186,7 +185,7 @@ display: inline;
  }
  .work #work-services{
   font-size: 18px;
-  /*font-family: "Untitled";*/
+  font-family: "Exo2.0", sans-serif;
   color: rgb(238, 238, 238);
   text-align: center;
   width: 478px;
@@ -204,7 +203,7 @@ display: inline;
  }
  .service #work-services{
   font-size: 18px;
-  /*font-family: "Untitled";*/
+  font-family: "Exo2.0", sans-serif;
   color: rgb(238, 238, 238);
   text-align: center;
   width: 478px;
@@ -221,9 +220,9 @@ display: inline;
  }
  .btn{
   font-size: 18px;
-  /*font-family: "Untitled";*/
+  font-family: "Exo2.0", sans-serif;
   color: rgb(255, 255, 255);
- background-color:  rgb(255, 255, 255, 0);
+ background:  transparent;
   text-transform: uppercase;
   text-align: center;
  margin-left: 200px;
@@ -244,9 +243,9 @@ display: inline;
  }
   .btn-header{
   font-size: 18px;
-  /*font-family: "Untitled";*/
+  font-family: "Exo2.0", sans-serif;
   color: rgb(255, 255, 255);
- background-color:  rgb(255, 255, 255, 0);
+ background:  transparent;
   text-transform: uppercase;
  height: 80px;
  width: 200px;
@@ -385,6 +384,7 @@ color: #fff;
     color: rgb(112, 112, 112);
     text-align: center;
     padding-top: 30px;
+    margin-bottom: 60px;
  }
 
  /******************************contacts*****************************/
@@ -407,7 +407,42 @@ color: #fff;
   	font-size: 25px;
 	color: #fff;
   }
-
+.contactsForm{
+	padding-bottom: 100px;
+	padding-top: 40px;
+}
+.contactsName{
+    width: 300px;
+    height: 60px;
+    border-radius: 40px;
+    margin-right: 10px;	
+    margin-left: 130px;
+    outline: none;
+    background: transparent;
+    border-color: #028ad8;
+}
+.contactsPhone{
+    width: 300px;
+    height: 60px;
+    border-radius: 40px;
+    margin-right: 10px;
+    outline: none;
+    background: transparent;
+    border-color: #028ad8;
+}
+.contactsForm #submit{
+	background-color: #0296ea;
+    width: 300px;
+    height: 60px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-family: "Exo2.0", sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    outline: none;
+}
 /****************************contactsMail******************************/
 #contactsMail{
 	padding-top: 100px;
@@ -442,7 +477,11 @@ color: #fff;
 }
 
 /*****************************maps********************************/
-
+ #map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
 
 
 /*****************************footer****************************/

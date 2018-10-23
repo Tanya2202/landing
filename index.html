@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>АС Сибирь</title>
-	<link href="https://fonts.googleapis.com/css?family=Exo+2:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Exo+2:400,700,900" rel="stylesheet">
 	<link href="css/reset.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
@@ -149,6 +149,7 @@
 			<p id="persent">100%</p>
 			<p>отечественного производства</p>
 			<button type="button" class="btn-header">о производстве</button>
+			<div class="clear"></div>
 		</div>
 </section>
 
@@ -159,14 +160,14 @@
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor urna ultrices efficitur sceleris.
 		</p>
 
-<div class="responsive">
-  <div><h3>1</h3></div>
-  <div><h3>2</h3></div>
-  <div><h3>3</h3></div>
-  <div><h3>4</h3></div>
-  <div><h3>5</h3></div>
-  <div><h3>6</h3></div>
-</div>
+		<div class="responsive">
+		  <div><img src="img/partners1.png"></div>
+		  <div><img src="img/partners2.png"></div>
+		  <div><img src="img/partners3.png"></div>
+		  <div><img src="img/partners4.png"></div>
+		  <div><img src="img/partners5.png"></div>
+		  <div><img src="img/partners6.png"></div>
+		</div>
 
 		<div class="clear"></div>
 	</div>	
@@ -176,11 +177,10 @@
 	<div class="wrapper">
 		<h3>хотите стать нашим клиєнтом?</h3>
 		<p>Ocтавьте свои контакты, просто заполнив форму и мы свяжемся с вами в ближайшее время.</p>
-		<form action="URL">
-			 Имя: <input type="text" name="fname" /><br />
-			    <p>Телефон в формате 2xxx-xxx:  <input type="tel" name="tel" placeholder="+73 (__)___-__-__" ></p>
-<p><input name="submit" type="submit" id="submit" value="Отправить" />
-</p>
+		<form action="URL" class="contactsForm">
+			<input class="contactsName" type="text" name="fname" />
+			<input class="contactsPhone" type="tel" name="tel" placeholder="+73 (__)___-__-__" >
+			<input name="submit" type="submit" id="submit" value="стать клиентом" />
 		</form>
 		<div class="clear"></div>
 	</div>
@@ -215,7 +215,23 @@
 </section>
 
 <section id="maps">
-	
+	<div id="map"></div>
+	<script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+        <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+    <div class="clear"></div>
 </section>
 
 <section id="footer">
