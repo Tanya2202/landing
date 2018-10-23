@@ -37,7 +37,7 @@
 }
 .number{
 	font-size: 26px;
-	font-family: "Exo2.0";
+	font-family: "Exo2.0", sans-serif;
 	color: #fff;
 	background: url(../img/phone.png) no-repeat;
 	background-position: left;
@@ -58,6 +58,7 @@
 	text-align: center;
 	margin: 0 20px 0 0;
 	border: none;
+	outline: none;
 }
 
 .feedback{
@@ -70,13 +71,14 @@
 }
 #language{
   font-size: 16px;
-  font-family: "Exo2.0";
+  font-family: "Exo2.0", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   background-color: transparent;
   border: none;
   color: #fff;
+  outline: none;
 }
 .menuTopNav{
 	float: left;
@@ -95,7 +97,7 @@
   font-family: "Untitled";
   color: rgb(255, 255, 255);
   text-align: right;
-  padding: 20px 30px 30px 24px;
+  padding: 20px 30px 26px 24px;
   text-decoration: none;
   border-top: 5px solid transparent;
 }
@@ -154,27 +156,33 @@ display: inline;
 }
 .head p{
   font-size: 72px;
-  font-family: "Exo2.0";
+  font-family: "Exo2.0", sans-serif;
   color: #fff;
   text-transform: uppercase;
   text-align: center;
   margin: 0;
 }
+
+.mainBlock{
+	margin-top: -285px;
+}
 .work{
  background: url(../img/background_h.png) repeat, url(../img/work.png) center no-repeat;
-  height: 400px;
+  background-color: rgb(0, 35, 60, 0.5);
+  height: 430px;
   width: 560px;
   border: 10px solid #0296ea;
   float: left;
  margin-right: 20px;
  }
  .work #h3{
-font-size: 36px;
-  font-family: "Exo2.0";
-  font-weight: bold;
-  color: #fff;
-  text-transform: uppercase;
-  text-align: center;
+	font-size: 36px;
+	font-family: "Exo2.0", sans-serif;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 110px 0 45px 0;
  }
  .work #work-services{
   font-size: 18px;
@@ -183,14 +191,16 @@ font-size: 36px;
   text-align: center;
   width: 478px;
   margin-left: 60px;
+  margin-bottom: 70px;
  }
  .service #h3{
-font-size: 36px;
-  font-family: "Exo2.0";
-  font-weight: bold;
-  color: #fff;
-  text-transform: uppercase;
-  text-align: center;
+	font-size: 36px;
+	font-family: "Exo2.0", sans-serif;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 110px 0 45px 0;
  }
  .service #work-services{
   font-size: 18px;
@@ -199,10 +209,12 @@ font-size: 36px;
   text-align: center;
   width: 478px;
   margin-left: 60px;
+  margin-bottom: 70px;
  }
  .service{
  background: url(../img/background_h.png) repeat, url(../img/service.png) center no-repeat;
-  height: 400px;
+ background-color: rgb(0, 35, 60, 0.5);
+  height: 430px;
   width: 560px;
   border: 10px solid #0296ea;	
   float: left;
@@ -217,15 +229,18 @@ font-size: 36px;
  margin-left: 200px;
  height: 80px;
  width: 200px;
- margin-top: 120px;
+ margin-bottom: 50px;
  border-bottom: 2px solid #fff;
  border-top: 2px solid #fff;
  border-left: none;
  border-right: none;
+ outline: none;
  }
  .btnHeader{
  	text-align: center;
  	margin-top: 100px;
+ 	padding-bottom: 440px;
+ 	outline: none;
  }
   .btn-header{
   font-size: 18px;
@@ -239,26 +254,219 @@ font-size: 36px;
  border-top: 2px solid #fff;
  border-left: none;
  border-right: none;
+ outline: none;
  }
 
 
 /***********************body-site***********************/
-#body-site{
-background: url(../img/background_body.png) center no-repeat;
-
+#bodySite{
+	background-color: #fff;
+	background: url(../img/background_body1.png);
+    margin-top: -170px;
+    padding-top: 170px;
 }
-#body-site #welcome{
+#bodySite #welcome{
   font-size: 18px;
   font-family: "Myriad Pro";
   color: rgb(15, 69, 131);
   text-transform: uppercase;
   text-align: center;
+  padding: 80px 0 100px 0;
 }
-#body-site h3{
+#bodySite h3{
   font-size: 48px;
-  font-family: "Exo2.0";
+  font-family: "Exo2.0",sans-serif;
   color: rgb(2, 150, 234);
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
+}
+#bodySite #welcomeDescription{
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  color: rgb(112, 112, 112);
+  text-align: center;
+  padding-top: 30px;
+}
+
+#bodySite .sectionDescription{
+	margin-left: 10px;
+	margin-bottom: 60px;
+}
+.sectionDescriptionImg{
+	float: left;
+	width: 140px;
+	height: 236px;
+}
+.sectionDescriptionText{
+	float: left;
+	width: 400px;
+
+}
+.sectionDescription h4{
+	font-size: 24px;
+	font-family: "Exo2.0", sans-serif;
+	color: rgb(2, 150, 234);
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+	margin-top: 25px;
+}
+.sectionDescription p{
+}
+.ownProduction{
+	float: left;
+	height: 236px; 
+	width: 540px;
+	margin-right: 100px;
+}
+.scientificPotential{
+	float: left;
+	height: 236px; 
+	width: 540px;	
+}
+.experienceIntroductions{
+	float: left;
+	height: 236px; 
+	width: 540px;
+	margin-right: 100px;
+}
+.staff{
+	float: left;
+	height: 236px; 
+	width: 540px;
+}
+
+
+/*****************************banner***************************/
+#banner{
+	padding-top: 100px;
+	background: url(../img/background_h.png) repeat, url(../img/banner_back1.png) center no-repeat;
+	background-size: cover;
+	background-color: rgb(0, 35, 60, 0.5);	
+}
+#banner .bannerAligin{
+	text-align: center;
+
+}
+#banner #persent{
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 70px;
+	margin-bottom: 35px;
+}
+.bannerAligin p{
+text-transform: uppercase;
+font-size: 20px;
+color: #fff;
+}
+.bannerAligin .btn-header{
+	margin: 60px 0 100px 0; 
+}
+
+/******************************partners********************************/
+#partners{
+	background-color: #fff;
+	background: url(../img/partners11.png);
+}
+#partners h3{
+    font-size: 48px;
+    font-family: "Exo2.0", sans-serif;
+    color: rgb(2, 150, 234);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 150px;
+ }
+ #partners p{
+    font-size: 18px;
+    font-family: "Myriad Pro";
+    color: rgb(112, 112, 112);
+    text-align: center;
+    padding-top: 30px;
+ }
+
+ /******************************contacts*****************************/
+ #contacts{
+ 	padding-top: 100px;
+	background: url(../img/background_h.png) repeat, url(../img/klient2.png) center no-repeat;
+ 	background-size: cover;
+	background-color: rgb(0, 35, 60, 0.5);	
+ }
+  #contacts h3{
+ 	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 40px;
+	margin-bottom: 35px;
+	text-align: center;
+}
+  #contacts p{
+  	text-align: center;
+  	font-size: 25px;
+	color: #fff;
+  }
+
+/****************************contactsMail******************************/
+#contactsMail{
+	padding-top: 100px;
+	background-color: #0296ea;
+}
+  #contactsMail h3{
+ 	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 40px;
+	margin-bottom: 35px;
+	text-align: center;
+}
+  #contactsMail p{
+  	text-align: center;
+  	font-size: 25px;
+	color: #fff;
+  }
+  .sectionContactsMail{
+  	padding-top: 40px;
+  }
+  .contactsMail1{
+    float: left;
+    height: 220px; 
+    width: 80px;
+  }
+.contactsMail2{
+    float: left;
+    height: 200px; 
+    width: 320px;
+    padding-top: 20px;
+}
+
+/*****************************maps********************************/
+
+
+
+/*****************************footer****************************/
+#footer{
+	background-color: #0f4583;
+}
+.footerLeft{
+	float: left;
+	font-size: 14px;
+	font-family: "Untitled";
+	color: #fff;
+	margin-top: 30px;
+	margin-bottom: 35px;
+}
+.footerRight{
+	float: right;
+	font-size: 14px;
+	font-family: "Untitled";
+	color: #fff;
+	margin-top: 30px;
+	margin-bottom: 35px;
+}
+#footer img{
+	float: right;
+	margin-top: 15px;
+	margin-left: 15px;	
 }
