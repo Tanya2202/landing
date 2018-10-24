@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>АС Сибирь</title>
+	<title>АС Сибирь</title>
 	<link href="https://fonts.googleapis.com/css?family=Exo+2:100,200,300,400,700,900" rel="stylesheet">
 	<link href="css/reset.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
@@ -62,7 +62,7 @@
 	     </div>
 
 	     <div class="btnHeader">
-    		<button type="button" class="btn-header">о компании</button>
+    		<a href="#" class="btn-header">о компании</a>
     	</div>
     </div>
 </section>	
@@ -70,14 +70,14 @@
 <div class="mainBlock">
 	<div class="wrapper">
 		<div class="work">
-			<p id="h3">разработки</p>
-			<p id="work-services">Электронные компоненты. кконтроллеры программируемые модули ввода/вывода. светодиодные табло. парковочное оборудование</p>
-			<button type="button" class="btn">подробнее</button>
+			<p class="h3">разработки</p>
+			<p class="work-services">Электронные компоненты. кконтроллеры программируемые модули ввода/вывода. светодиодные табло. парковочное оборудование</p>
+			<a href="#" class="btn">подробнее</a>
 		</div>
 		<div class="service">
-			<p id="h3">услуги</p>
-			<p id="work-services">Наши программисты разработают программное обеспечения под любые задачи и потребности клиента</p>
-			<button type="button" class="btn">подробнее</button>
+			<p class="h3">услуги</p>
+			<p class="work-services">Наши программисты разработают программное обеспечения под любые задачи и потребности клиента</p>
+			<a href="#" class="btn">подробнее</a>
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -145,12 +145,11 @@
 </section> 
 
 <section id="banner">
-		<div class="bannerAligin">	
-			<p id="persent">100%</p>
-			<p>отечественного производства</p>
-			<button type="button" class="btn-header">о производстве</button>
-			<div class="clear"></div>
-		</div>
+	<div class="bannerAligin">	
+		<p id="persent">100%</p>
+		<p>отечественного производства</p>
+		<a href="#" class="btn-header">о производстве</a>
+	</div>
 </section>
 
 <section id="partners">
@@ -179,9 +178,9 @@
 	<div class="wrapper">
 		<h3>хотите стать нашим клиєнтом?</h3>
 		<p>Ocтавьте свои контакты, просто заполнив форму и мы свяжемся с вами в ближайшее время.</p>
-		<form action="URL" class="contactsForm">
-			<input class="contactsName" type="text" name="fname" />
-			<input class="contactsPhone" type="tel" name="tel" placeholder="+73 (__)___-__-__" >
+		<form action="" class="contactsForm">
+			<input class="contactsName" type="text" name="fname" placeholder="Ваше имя"/>
+			<input class="contactsPhone" id="contactsPhone" type="tel" name="tel" placeholder="+73 (__)___-__-__"/>
 			<input name="submit" type="submit" id="submit" value="стать клиентом" />
 		</form>
 		<div class="clear"></div>
@@ -191,12 +190,12 @@
 <section id="contactsMail">
 	<div class="wrapper">
 		<h3>контакты</h3>
-		<p>Остались вопросы? Свяжитесь с нами!</p>
+		<p class="question">Остались вопросы? Свяжитесь с нами!</p>
 		<div class="sectionContactsMail">
 			<div class="contactsMail1">
 				<img src="img/contactsMail1.png">
 			</div>
-			<div class="contactsMail2">
+			<div class="contactsMail2 contactsMail2pt20">
 				<p>Россия, г. Новосибирск, ул. Железнодорожная, 3Б</p>
 			</div>
 			<div class="contactsMail1">
@@ -211,8 +210,8 @@
 			<div class="contactsMail2">
 				<p>info@as-sibir.ru</p>
 			</div>
+			<div class="clear"></div>
 		</div>
-		<div class="clear"></div>
 	</div>
 </section>
 
@@ -223,7 +222,7 @@
 			var novosibirsk = {lat: 55.044735, lng: 82.896275};
 			var novosibirsk1 = {lat: 55.044643, lng: 82.898560};
 			var map = new google.maps.Map(
-			  document.getElementById('map'), {zoom: 18, center: novosibirsk1});
+			  document.getElementById('map'), {zoom: 17, center: novosibirsk1});
 			var marker = new google.maps.Marker({position: novosibirsk, map: map});
 		}
     </script>
@@ -250,7 +249,7 @@
 
 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
-<script src ="jquery.maskedinput.js" type ="text/javascript"></script>  
+<script src ="js/jquery.maskedinput.js" type ="text/javascript"></script>  
 <script src="js/scripts.js"></script>
 </body>
 </html>	

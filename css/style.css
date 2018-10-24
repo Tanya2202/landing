@@ -1,10 +1,12 @@
-
+body{
+	font-family: 'Exo 2', sans-serif;
+}
 
 /*****************************header*************************************/
 .wrapper {
 	margin-right: auto;
 	margin-left:  auto; 
-	max-width: 1200px; 
+	max-width: 1180px; 
 	padding-right: 10px; 
 	padding-left:  10px; 
 }
@@ -36,8 +38,7 @@
 }
 
 .number{
-	font-size: 26px;
-	font-family: "Exo2.0", sans-serif;
+	font-size: 24px;
 	font-weight: 400;
 	color: #fff;
 	background: url(../img/phone.png) no-repeat;
@@ -45,7 +46,7 @@
 	float: left;
 	width: 220px;
 	margin-right: 20px;
-	padding: 5px 0 5px 40px;
+	padding: 3px 0 3px 40px;
 }
 .contactUs{
 	background-color: #0296ea;
@@ -53,7 +54,6 @@
 	height: 30px;
 	border-radius: 20px;
 	font-size: 12px;
-	font-family: "Exo2.0", sans-serif;
 	font-weight: 400;
 	color: #fff;
 	text-transform: uppercase;
@@ -70,10 +70,10 @@
 .lang{
 	float: left;
 	width: 90px;
+	margin: 5px 0 0 10px;
 }
 #language{
 	font-size: 16px;
-	font-family: "Exo2.0", sans-serif;
 	font-weight: 400;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -85,7 +85,8 @@
 }
 .menuTopNav{
 	float: left;
-	width: 950px;
+    width: 940px;
+    padding-left: 22px;
 }
 
 .menuTopNav ul{
@@ -95,11 +96,10 @@
 .menuTopNav li >a {
 	float: left;
 	font-size: 20px;
-	font-family: "Exo2.0", sans-serif;
 	font-weight: 400;
 	color: rgb(255, 255, 255);
 	text-align: right;
-	padding: 20px 30px 26px 17px;
+	padding: 20px 22px 26px;
 	text-decoration: none;
 	border-top: 5px solid transparent;
 }
@@ -122,7 +122,7 @@
 
 .logo{
 	float: left;
-	margin: 30px 70px 20px 10px;	
+	margin: 30px 50px 20px 10px;	
 }
 
 .menu-top-nav #navbar{
@@ -133,7 +133,6 @@
 .menu-top-nav #navbar li{
 	display: inline;
 	font-size: 20px;
-	font-family: "Exo2.0", sans-serif;
 	font-weight: 400;
 	color: #fff;
 
@@ -148,7 +147,6 @@
 }
 .description p{
 	font-size: 36px;
-	font-family: "Exo2.0", sans-serif;
 	font-weight: 200;
 	color: #fff;
 	text-transform: uppercase;
@@ -156,7 +154,6 @@
 }
 .head p{
 	font-size: 72px;
-	font-family: "Exo2.0", sans-serif;
 	font-weight: 900;
 	color: #fff;
 	text-transform: uppercase;
@@ -167,6 +164,10 @@
 .mainBlock{
 	margin-top: -285px;
 }
+.mainBlock .wrapper{
+    max-width: 1180px;
+}
+
 .work{
 	background: url(../img/background_h.png) repeat, url(../img/work.png) center no-repeat;
 	background-color: rgba(0, 35, 60, 0.5);
@@ -176,44 +177,26 @@
 	float: left;
 	margin-right: 20px;
  }
- .work #h3{
+ .work .h3,
+ .service .h3{
 	font-size: 36px;
-	font-family: "Exo2.0", sans-serif;
 	font-weight: 700;
 	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
 	padding: 110px 0 45px 0;
  }
- .work #work-services{
+ .work .work-services,
+ .service .work-services{
 	font-size: 19px;
-	font-family: "Exo2.0", sans-serif;
+    line-height: 26px;
 	font-weight: 200;
 	color: rgb(238, 238, 238);
 	text-align: center;
 	width: 478px;
-	margin-left: 60px;
-	margin-bottom: 70px;
+	margin: 0 auto 40px;
  }
- .service #h3{
-	font-size: 36px;
-	font-family: "Exo2.0", sans-serif;
-	font-weight: 700;
-	color: #fff;
-	text-transform: uppercase;
-	text-align: center;
-	padding: 110px 0 45px 0;
- }
- .service #work-services{
-	font-size: 19px;
-	font-family: "Exo2.0", sans-serif;
-	font-weight: 200;
-	color: rgb(238, 238, 238);
-	text-align: center;
-	width: 478px;
-	margin-left: 60px;
-	margin-bottom: 70px;
- }
+
  .service{
 	background: url(../img/background_h.png) repeat, url(../img/service.png) center no-repeat;
 	background-color: rgba(0, 35, 60, 0.5);
@@ -224,42 +207,39 @@
  }
  .btn{
 	font-size: 18px;
-	font-family: "Exo2.0", sans-serif;
 	font-weight: 400;
 	color: rgb(255, 255, 255);
 	background:  transparent;
 	text-transform: uppercase;
 	text-align: center;
-	margin-left: 200px;
-	height: 80px;
+	margin: 0 auto;
+    display: block;
 	width: 200px;
 	margin-bottom: 50px;
 	border-bottom: 2px solid #fff;
 	border-top: 2px solid #fff;
 	border-left: none;
 	border-right: none;
-	outline: none;
+	text-decoration: none;
+    padding: 20px 0;
  }
  .btnHeader{
  	text-align: center;
  	margin-top: 100px;
  	padding-bottom: 440px;
- 	outline: none;
  }
-  .btn-header{
+ .btn-header{
 	font-size: 18px;
-	font-family: "Exo2.0", sans-serif;
 	font-weight: 200;
 	color: rgb(255, 255, 255);
 	background:  transparent;
 	text-transform: uppercase;
-	height: 80px;
-	width: 200px;
 	border-bottom: 2px solid #fff;
 	border-top: 2px solid #fff;
 	border-left: none;
 	border-right: none;
-	outline: none;
+    text-decoration: none;
+	padding: 18px 44px;
  }
 
 
@@ -272,7 +252,6 @@
 }
 #bodySite #welcome{
 	font-size: 18px;
-	font-family: "Exo2.0", sans-serif;
 	font-weight: 200;
 	color: rgb(15, 69, 131);
 	text-transform: uppercase;
@@ -281,7 +260,6 @@
 }
 #bodySite h3{
 	font-size: 48px;
-	font-family: "Exo2.0",sans-serif;
 	font-weight: 900;
 	color: rgb(2, 150, 234);
 	text-transform: uppercase;
@@ -289,7 +267,6 @@
 }
 #bodySite #welcomeDescription{
 	font-size: 18px;
-	font-family: "Exo2.0",sans-serif;
 	font-weight: 200;
 	color: rgb(112, 112, 112);
 	text-align: center;
@@ -316,7 +293,6 @@
 
 .sectionDescription h4{
 	font-size: 24px;
-	font-family: "Exo2.0",sans-serif;
 	font-weight: 900;
 	color: rgb(2, 150, 234);
 	text-transform: uppercase;
@@ -326,14 +302,13 @@
 
 .sectionDescription p{
 	font-size: 17px;
-	font-family: "Exo2.0",sans-serif;
 	font-weight: 100;
 }
 .ownProduction{
 	float: left;
 	height: 300px; 
 	width: 540px;
-	margin-right: 100px;
+	margin-right: 90px;
 }
 .scientificPotential{
 	float: left;
@@ -344,7 +319,7 @@
 	float: left;
 	height: 300px; 
 	width: 540px;
-	margin-right: 100px;
+	margin-right: 90px;
 }
 .staff{
 	float: left;
@@ -356,6 +331,7 @@
 /*****************************banner***************************/
 #banner{
 	padding-top: 100px;
+    padding-bottom: 100px;
 	background: url(../img/background_h.png) repeat, url(../img/banner_back1.png) center no-repeat;
 	background-size: cover;
 	background-color: rgba(0, 35, 60, 0.5);	
@@ -365,7 +341,6 @@
 }
 #banner #persent{
 	color: #fff;
-	font-family: "Exo2.0",sans-serif;
 	font-weight: 900;
 	text-transform: uppercase;
 	font-size: 70px;
@@ -374,12 +349,14 @@
 .bannerAligin p{
 	text-transform: uppercase;
 	font-size: 36px;
-	font-family: "Exo2.0",sans-serif;
 	font-weight: 100;
 	color: #fff;
 }
-.bannerAligin .btn-header{
-	margin: 60px 0 100px 0; 
+.bannerAligin .btn-header{ 
+    display: block;
+    width: 200px;
+    margin: 60px auto 0;
+    padding: 20px 0;
 }
 
 /******************************partners********************************/
@@ -389,7 +366,6 @@
 }
 #partners h3{
     font-size: 48px;
-    font-family: "Exo2.0", sans-serif;
     color: rgb(2, 150, 234);
     font-weight: 900;
     text-transform: uppercase;
@@ -398,7 +374,6 @@
  }
  #partners p{
     font-size: 18px;
-    font-family: "Exo2.0", sans-serif;
     font-weight: 300;
     color: rgb(112, 112, 112);
     text-align: center;
@@ -413,9 +388,9 @@
  .responsive .slick-dots li button:before{
     font-size: 15px;
 }
-.responsive .slick-prev, .slick-next {
-	opacity: 1;
-	color: rgb(112, 112, 112);
+.responsive .slick-prev:before, .slick-next:before {
+	font-size: 25px;
+	color: #0296ea;
 	background-color: #fff;
 }
  .responsive .slick-dots li.slick-active button:before{
@@ -429,7 +404,12 @@
  	background-size: cover;
 	background-color: rgb(0, 35, 60, 0.5);	
  }
-  #contacts h3{
+
+#contacts .wrapper{
+	text-align: center;
+}
+
+#contacts h3{
  	color: #fff;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -437,22 +417,25 @@
 	margin-bottom: 35px;
 	text-align: center;
 }
-  #contacts p{
+
+#contacts p{
   	text-align: center;
-  	font-size: 25px;
+  	font-size: 18px;
 	color: #fff;
-  }
+}
+
 .contactsForm{
 	padding-bottom: 100px;
 	padding-top: 40px;
 }
 .contactsName,
 .contactsPhone{
-    width: 300px;
-    height: 60px;
+    font-size: 18px;
+    color: #fff;
+    padding: 19px 42px;
     border-radius: 40px;
     margin-right: 10px;	
-    margin-left: 130px;
+    margin-left: 10px;
     outline: none;
     background: transparent;
     border-color: #028ad8;
@@ -463,9 +446,9 @@
 	background-color: #0296ea;
     width: 300px;
     height: 60px;
+    margin-left: 10px;
     border-radius: 40px;
     font-size: 18px;
-    font-family: "Exo2.0", sans-serif;
     color: #fff;
     text-transform: uppercase;
     text-align: center;
@@ -485,26 +468,31 @@
 	margin-bottom: 35px;
 	text-align: center;
 }
-  #contactsMail p{
-  	text-align: center;
-  	font-size: 25px;
-	color: #fff;
-  }
-  .sectionContactsMail{
-  	padding-top: 40px;
-  }
-  .contactsMail1{
-    float: left;
-    height: 220px; 
-    width: 80px;
-  }
-.contactsMail2{
-    float: left;
-    height: 200px; 
-    width: 320px;
-    padding-top: 20px;
+#contactsMail .question{
+	text-align: center;
+    font-size: 18px;
 }
-
+#contactsMail p{
+    padding-left: 20px;
+  	font-size: 20px;
+	color: #fff;
+}
+.sectionContactsMail{
+  	padding-top: 40px;
+  	padding-bottom: 100px;
+}
+.contactsMail1{
+    float: left;
+    width: 80px;
+}
+.contactsMail2{
+    float: left; 
+    width: 310px;
+    padding-top: 30px;
+}
+.contactsMail2pt20{
+	padding-top: 20px;
+}
 /*****************************maps********************************/
  #map {
    width: 100%;
