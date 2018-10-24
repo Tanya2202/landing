@@ -2,20 +2,18 @@
 
 /*****************************header*************************************/
 .wrapper {
-  margin-right: auto;
-  margin-left:  auto; 
-
-  max-width: 1200px; 
-
-  padding-right: 10px; 
-  padding-left:  10px; 
+	margin-right: auto;
+	margin-left:  auto; 
+	max-width: 1200px; 
+	padding-right: 10px; 
+	padding-left:  10px; 
 }
 
 #header{
 	background: url(../img/background_h.png) repeat, url(../img/background_h1.png) center no-repeat;
 	background-size: cover;
     background-color: rgb(0, 35, 60, 0.5);
-}
+}	
 
 .mainHeaderInfo{
 	background: url(../img/mainHeaderBottomLine.png) repeat-x;
@@ -25,18 +23,22 @@
 .clear{
 	clear: both;
 }
+
 .headerPhones{
 	float: left;
 	width: 950px;
 }
+
 .headerPhonesBl{
 	width: 550px;
 	float: right;
 	margin: 30px 0 25px 0;
 }
+
 .number{
 	font-size: 26px;
 	font-family: "Exo2.0", sans-serif;
+	font-weight: 400;
 	color: #fff;
 	background: url(../img/phone.png) no-repeat;
 	background-position: left;
@@ -52,6 +54,7 @@
 	border-radius: 20px;
 	font-size: 12px;
 	font-family: "Exo2.0", sans-serif;
+	font-weight: 400;
 	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
@@ -69,15 +72,16 @@
 	width: 90px;
 }
 #language{
-  font-size: 16px;
-  font-family: "Exo2.0", sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
-  background-color: transparent;
-  border: none;
-  color: #fff;
-  outline: none;
+	font-size: 16px;
+	font-family: "Exo2.0", sans-serif;
+	font-weight: 400;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: transparent;
+	border: none;
+	color: #fff;
+	outline: none;
 }
 .menuTopNav{
 	float: left;
@@ -87,23 +91,22 @@
 .menuTopNav ul{
     margin-bottom: 0;
 }
-.menuTopNav li{
-	
-}
+
 .menuTopNav li >a {
-  float: left;
-  font-size: 20px;
-  font-family: "Exo2.0", sans-serif;
-  color: rgb(255, 255, 255);
-  text-align: right;
-  padding: 20px 30px 26px 24px;
-  text-decoration: none;
-  border-top: 5px solid transparent;
+	float: left;
+	font-size: 20px;
+	font-family: "Exo2.0", sans-serif;
+	font-weight: 400;
+	color: rgb(255, 255, 255);
+	text-align: right;
+	padding: 20px 30px 26px 17px;
+	text-decoration: none;
+	border-top: 5px solid transparent;
 }
 
 .menuTopNav li >a:hover {
 	border-top: 5px solid #0296ea;
-	background: rgb(0,0,0,0.4);	
+	background: rgba(0, 0, 0, 0.4);	
 }
 .head{
 	padding-top: 125px;
@@ -122,118 +125,120 @@
 	margin: 30px 70px 20px 10px;	
 }
 
-.menu-top-nav{
-
-}
 .menu-top-nav #navbar{
-  padding: 150px 350px;
-  padding-bottom: 0;
-
-  margin: 0;
+	padding: 150px 350px;
+	padding-bottom: 0;
+	margin: 0;
 }
 .menu-top-nav #navbar li{
-display: inline;
-  font-size: 20px;
- font-family: "Exo2.0", sans-serif;
-  color: #fff;
+	display: inline;
+	font-size: 20px;
+	font-family: "Exo2.0", sans-serif;
+	font-weight: 400;
+	color: #fff;
 
 }
 .menu-top-nav li > a{
-    color: #fff;
- text-decoration: none;
+	color: #fff;
+	text-decoration: none;
 }
 .menu-top-nav li > a:hover{
-   text-decoration: overline #0296ea;
-   background-color: rgb(0, 0, 0);
+	text-decoration: overline #0296ea;
+	background-color: rgb(0, 0, 0);
 }
 .description p{
-  font-size: 36px;
- font-family: "Exo2.0", sans-serif;
-  color: #fff;
-  text-transform: uppercase;
-  text-align: center;
+	font-size: 36px;
+	font-family: "Exo2.0", sans-serif;
+	font-weight: 200;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
 }
 .head p{
-  font-size: 72px;
-  font-family: "Exo2.0", sans-serif;
-  color: #fff;
-  text-transform: uppercase;
-  text-align: center;
-  margin: 0;
+	font-size: 72px;
+	font-family: "Exo2.0", sans-serif;
+	font-weight: 900;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
 }
 
 .mainBlock{
 	margin-top: -285px;
 }
 .work{
- background: url(../img/background_h.png) repeat, url(../img/work.png) center no-repeat;
-  background-color: rgb(0, 35, 60, 0.5);
-  height: 430px;
-  width: 560px;
-  border: 10px solid #0296ea;
-  float: left;
- margin-right: 20px;
+	background: url(../img/background_h.png) repeat, url(../img/work.png) center no-repeat;
+	background-color: rgba(0, 35, 60, 0.5);
+	height: 430px;
+	width: 560px;
+	border: 10px solid #0296ea;
+	float: left;
+	margin-right: 20px;
  }
  .work #h3{
 	font-size: 36px;
 	font-family: "Exo2.0", sans-serif;
-	font-weight: bold;
+	font-weight: 700;
 	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
 	padding: 110px 0 45px 0;
  }
  .work #work-services{
-  font-size: 18px;
-  font-family: "Exo2.0", sans-serif;
-  color: rgb(238, 238, 238);
-  text-align: center;
-  width: 478px;
-  margin-left: 60px;
-  margin-bottom: 70px;
+	font-size: 19px;
+	font-family: "Exo2.0", sans-serif;
+	font-weight: 200;
+	color: rgb(238, 238, 238);
+	text-align: center;
+	width: 478px;
+	margin-left: 60px;
+	margin-bottom: 70px;
  }
  .service #h3{
 	font-size: 36px;
 	font-family: "Exo2.0", sans-serif;
-	font-weight: bold;
+	font-weight: 700;
 	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
 	padding: 110px 0 45px 0;
  }
  .service #work-services{
-  font-size: 18px;
-  font-family: "Exo2.0", sans-serif;
-  color: rgb(238, 238, 238);
-  text-align: center;
-  width: 478px;
-  margin-left: 60px;
-  margin-bottom: 70px;
+	font-size: 19px;
+	font-family: "Exo2.0", sans-serif;
+	font-weight: 200;
+	color: rgb(238, 238, 238);
+	text-align: center;
+	width: 478px;
+	margin-left: 60px;
+	margin-bottom: 70px;
  }
  .service{
- background: url(../img/background_h.png) repeat, url(../img/service.png) center no-repeat;
- background-color: rgb(0, 35, 60, 0.5);
-  height: 430px;
-  width: 560px;
-  border: 10px solid #0296ea;	
-  float: left;
+	background: url(../img/background_h.png) repeat, url(../img/service.png) center no-repeat;
+	background-color: rgba(0, 35, 60, 0.5);
+	height: 430px;
+	width: 560px;
+	border: 10px solid #0296ea;	
+	float: left;
  }
  .btn{
-  font-size: 18px;
-  font-family: "Exo2.0", sans-serif;
-  color: rgb(255, 255, 255);
- background:  transparent;
-  text-transform: uppercase;
-  text-align: center;
- margin-left: 200px;
- height: 80px;
- width: 200px;
- margin-bottom: 50px;
- border-bottom: 2px solid #fff;
- border-top: 2px solid #fff;
- border-left: none;
- border-right: none;
- outline: none;
+	font-size: 18px;
+	font-family: "Exo2.0", sans-serif;
+	font-weight: 400;
+	color: rgb(255, 255, 255);
+	background:  transparent;
+	text-transform: uppercase;
+	text-align: center;
+	margin-left: 200px;
+	height: 80px;
+	width: 200px;
+	margin-bottom: 50px;
+	border-bottom: 2px solid #fff;
+	border-top: 2px solid #fff;
+	border-left: none;
+	border-right: none;
+	outline: none;
  }
  .btnHeader{
  	text-align: center;
@@ -242,18 +247,19 @@ display: inline;
  	outline: none;
  }
   .btn-header{
-  font-size: 18px;
-  font-family: "Exo2.0", sans-serif;
-  color: rgb(255, 255, 255);
- background:  transparent;
-  text-transform: uppercase;
- height: 80px;
- width: 200px;
- border-bottom: 2px solid #fff;
- border-top: 2px solid #fff;
- border-left: none;
- border-right: none;
- outline: none;
+	font-size: 18px;
+	font-family: "Exo2.0", sans-serif;
+	font-weight: 200;
+	color: rgb(255, 255, 255);
+	background:  transparent;
+	text-transform: uppercase;
+	height: 80px;
+	width: 200px;
+	border-bottom: 2px solid #fff;
+	border-top: 2px solid #fff;
+	border-left: none;
+	border-right: none;
+	outline: none;
  }
 
 
@@ -265,27 +271,33 @@ display: inline;
     padding-top: 170px;
 }
 #bodySite #welcome{
-  font-size: 18px;
-  font-family: "Myriad Pro";
-  color: rgb(15, 69, 131);
-  text-transform: uppercase;
-  text-align: center;
-  padding: 80px 0 100px 0;
+	font-size: 18px;
+	font-family: "Exo2.0", sans-serif;
+	font-weight: 200;
+	color: rgb(15, 69, 131);
+	text-transform: uppercase;
+	text-align: center;
+	padding: 80px 0 100px 0;
 }
 #bodySite h3{
-  font-size: 48px;
-  font-family: "Exo2.0",sans-serif;
-  color: rgb(2, 150, 234);
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
+	font-size: 48px;
+	font-family: "Exo2.0",sans-serif;
+	font-weight: 900;
+	color: rgb(2, 150, 234);
+	text-transform: uppercase;
+	text-align: center;
 }
 #bodySite #welcomeDescription{
-  font-size: 18px;
-  font-family: "Myriad Pro";
-  color: rgb(112, 112, 112);
-  text-align: center;
-  padding-top: 30px;
+	font-size: 18px;
+	font-family: "Exo2.0",sans-serif;
+	font-weight: 200;
+	color: rgb(112, 112, 112);
+	text-align: center;
+	padding-top: 30px;
+}
+
+#bodySite .menuDescription{
+    margin-top: 60px;
 }
 
 #bodySite .sectionDescription{
@@ -300,22 +312,26 @@ display: inline;
 .sectionDescriptionText{
 	float: left;
 	width: 400px;
-
 }
+
 .sectionDescription h4{
 	font-size: 24px;
-	font-family: "Exo2.0", sans-serif;
+	font-family: "Exo2.0",sans-serif;
+	font-weight: 900;
 	color: rgb(2, 150, 234);
-	font-weight: bold;
 	text-transform: uppercase;
 	margin-bottom: 35px;
 	margin-top: 25px;
 }
+
 .sectionDescription p{
+	font-size: 17px;
+	font-family: "Exo2.0",sans-serif;
+	font-weight: 100;
 }
 .ownProduction{
 	float: left;
-	height: 236px; 
+	height: 300px; 
 	width: 540px;
 	margin-right: 100px;
 }
@@ -326,7 +342,7 @@ display: inline;
 }
 .experienceIntroductions{
 	float: left;
-	height: 236px; 
+	height: 300px; 
 	width: 540px;
 	margin-right: 100px;
 }
@@ -342,23 +358,25 @@ display: inline;
 	padding-top: 100px;
 	background: url(../img/background_h.png) repeat, url(../img/banner_back1.png) center no-repeat;
 	background-size: cover;
-	background-color: rgb(0, 35, 60, 0.5);	
+	background-color: rgba(0, 35, 60, 0.5);	
 }
 #banner .bannerAligin{
 	text-align: center;
-
 }
 #banner #persent{
 	color: #fff;
-	font-weight: bold;
+	font-family: "Exo2.0",sans-serif;
+	font-weight: 900;
 	text-transform: uppercase;
 	font-size: 70px;
 	margin-bottom: 35px;
 }
 .bannerAligin p{
-text-transform: uppercase;
-font-size: 20px;
-color: #fff;
+	text-transform: uppercase;
+	font-size: 36px;
+	font-family: "Exo2.0",sans-serif;
+	font-weight: 100;
+	color: #fff;
 }
 .bannerAligin .btn-header{
 	margin: 60px 0 100px 0; 
@@ -373,20 +391,37 @@ color: #fff;
     font-size: 48px;
     font-family: "Exo2.0", sans-serif;
     color: rgb(2, 150, 234);
-    font-weight: bold;
+    font-weight: 900;
     text-transform: uppercase;
     text-align: center;
     padding-top: 150px;
  }
  #partners p{
     font-size: 18px;
-    font-family: "Myriad Pro";
+    font-family: "Exo2.0", sans-serif;
+    font-weight: 300;
     color: rgb(112, 112, 112);
     text-align: center;
     padding-top: 30px;
     margin-bottom: 60px;
  }
-
+ .responsive .slick-dots li button{
+ 	padding: 0;
+ 	width: 15px;
+ 	height: 15px;
+ }
+ .responsive .slick-dots li button:before{
+    font-size: 15px;
+}
+.responsive .slick-prev, .slick-next {
+	opacity: 1;
+	color: rgb(112, 112, 112);
+	background-color: #fff;
+}
+ .responsive .slick-dots li.slick-active button:before{
+ 	color: #0296ea;
+ 	opacity: 1;
+ }
  /******************************contacts*****************************/
  #contacts{
  	padding-top: 100px;
@@ -411,7 +446,8 @@ color: #fff;
 	padding-bottom: 100px;
 	padding-top: 40px;
 }
-.contactsName{
+.contactsName,
+.contactsPhone{
     width: 300px;
     height: 60px;
     border-radius: 40px;
@@ -420,16 +456,9 @@ color: #fff;
     outline: none;
     background: transparent;
     border-color: #028ad8;
+    border-style: solid;
 }
-.contactsPhone{
-    width: 300px;
-    height: 60px;
-    border-radius: 40px;
-    margin-right: 10px;
-    outline: none;
-    background: transparent;
-    border-color: #028ad8;
-}
+
 .contactsForm #submit{
 	background-color: #0296ea;
     width: 300px;
@@ -479,7 +508,7 @@ color: #fff;
 /*****************************maps********************************/
  #map {
    width: 100%;
-   height: 400px;
+   height: 500px;
    background-color: grey;
  }
 

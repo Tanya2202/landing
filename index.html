@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>АС Сибирь</title>
-	<link href="https://fonts.googleapis.com/css?family=Exo+2:400,700,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Exo+2:100,200,300,400,700,900" rel="stylesheet">
 	<link href="css/reset.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
@@ -166,7 +166,9 @@
 		  <div><img src="img/partners3.png"></div>
 		  <div><img src="img/partners4.png"></div>
 		  <div><img src="img/partners5.png"></div>
-		  <div><img src="img/partners6.png"></div>
+  		  <div><img src="img/partners1.png"></div>
+		  <div><img src="img/partners2.png"></div>
+		  <div><img src="img/partners3.png"></div>
 		</div>
 
 		<div class="clear"></div>
@@ -217,20 +219,17 @@
 <section id="maps">
 	<div id="map"></div>
 	<script>
-// Initialize and add the map
-function initMap() {
-  // The location of Uluru
-  var uluru = {lat: -25.344, lng: 131.036};
-  // The map, centered at Uluru
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 4, center: uluru});
-  // The marker, positioned at Uluru
-  var marker = new google.maps.Marker({position: uluru, map: map});
-}
+		function initMap() {
+			var novosibirsk = {lat: 55.044735, lng: 82.896275};
+			var novosibirsk1 = {lat: 55.044643, lng: 82.898560};
+			var map = new google.maps.Map(
+			  document.getElementById('map'), {zoom: 18, center: novosibirsk1});
+			var marker = new google.maps.Marker({position: novosibirsk, map: map});
+		}
     </script>
-        <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
-    </script>
+	<script async defer
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfnMmyvFlifPLUZCTUqBaEB68W4Ss3ZIg&callback=initMap">
+	</script>
     <div class="clear"></div>
 </section>
 
@@ -251,6 +250,7 @@ function initMap() {
 
 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
+<script src ="jquery.maskedinput.js" type ="text/javascript"></script>  
 <script src="js/scripts.js"></script>
 </body>
 </html>	
