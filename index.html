@@ -219,11 +219,15 @@
 	<div id="map"></div>
 	<script>
 		function initMap() {
-			var novosibirsk = {lat: 55.044735, lng: 82.896275};
+			var novosibirsk = {lat: 55.044741, lng: 82.897460};
 			var novosibirsk1 = {lat: 55.044643, lng: 82.898560};
 			var map = new google.maps.Map(
 			  document.getElementById('map'), {zoom: 17, center: novosibirsk1});
-			var marker = new google.maps.Marker({position: novosibirsk, map: map});
+			var marker = new google.maps.Marker({
+   				position: novosibirsk,
+    			map: map,
+                icon: 'img/mapMarker.png'
+   });
 		}
     </script>
 	<script async defer
