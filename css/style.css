@@ -131,25 +131,6 @@ body{
 	margin: 30px 50px 20px 10px;	
 }
 
-.menu-top-nav #navbar{
-	padding: 150px 350px 0;
-	margin: 0;
-}
-.menu-top-nav #navbar li{
-	display: inline;
-	font-size: 20px;
-	font-weight: 400;
-	color: #fff;
-
-}
-.menu-top-nav li > a{
-	color: #fff;
-	text-decoration: none;
-}
-.menu-top-nav li > a:hover{
-	text-decoration: overline #0296ea;
-	background-color: rgb(0, 0, 0);
-}
 .description p{
 	font-size: 36px;
 	font-weight: 200;
@@ -556,21 +537,156 @@ body{
 
 }
 @media only screen and (max-width : 768px) {
-.work,
-.service{
-	width: 370px;
-	height: 450px;
-	margin-right: 10px;
-}
+	.logo{
+		margin: 30px 0 0 55px;
+	}
+	.head {
+		padding-bottom: 60px;
+	}
+	.btnHeader {
+		margin-top: 80px;
+	}
+	.work,
+	.service{
+		width: 348px;
+		height: 450px;
+	}
+	.work{
+		margin-right: 10px;
+	}
 
-.work .h3, .service .h3 {
-	padding: 90px 0 40px 0;
-}
+	.work .h3, .service .h3 {
+		padding: 90px 0 40px 0;
+	}
 
-.work .work-services, .service .work-services {
-	width: 370px;
+	.work .work-services, .service .work-services {
+		width: 288px;
+		padding: 0 30px;
+	}
+	#bodySite #welcome {
+		padding: 60px 0 100px 0;
+	}
+	#bodySite .sectionDescription {
+    margin-left: 60px;
+    margin-bottom: 50px;
+	}
+	.ownProduction,
+	.experienceIntroductions,
+	.scientificPotential,
+	.staff{
+    width: 648px;
+    height: auto;
+	}
+	.staff{
+		margin-bottom: 40px;
+	}
+	#bodySite #welcomeDescription {
+    margin: 0 89px;
+	}
+	.sectionDescriptionImg {
+    width: 142px;
+	}
+	.sectionDescriptionText {
+    width: 506px;
+	}
+
+	#partners h3 {
+	    padding-top: 130px;
+	}
+	#partners p{
+		margin: 0 150px 60px 150px;
+		line-height: 26px;
+	}
+
+	#contacts{
+		padding-top: 70px;
+	}
+	#contacts h3{
+	font-size: 48px;
+    margin-bottom: 40px;
+	}
+	#contacts p{
+	font-weight: 100;
+    margin: 0 150px;
+    line-height: 26px;
+	}
+	.contactsName, 
+	.contactsPhone{
+		padding: 18px 89px;
+	    margin-bottom: 10px;
+	}
+	.contactsForm {
+		padding-bottom: 70px;
+	}
+	.contactsForm #submit{
+		width: 400px;
+	}
+
+	#contactsMail {
+		padding-top: 80px;
+	}
+	#contactsMail h3 {
+		font-size: 48px;
+	}
+	#contactsMail p {
+		font-weight: 200;
+	}
+	.sectionContactsMail {
+		padding-top: 60px;
+	}
+	.contactsMail1 img{
+		padding-left: 60px;
+	}
+	.contactsMail1Adress{
+		margin-bottom: 115px;
+	}
+	.contactsMail1Phone{
+
+	}
+	.contactsMail1Email{
+
+	}
+
+	.footerLeft {
+	    margin: 30px 200px 35px 200px;
+	}
+	.footerRight {
+		margin: 17px 10px 35px 0;
+	}
+	#footer img {
+		margin-right: 256px;
+		margin-top: 0;
+	}
 }
-}
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 320px) {
+	.head p {
+		font-size: 30px;
+	}
+	.description p {
+		font-size: 18px;
+		line-height: 20px;
+	}
+	.btnHeader {
+		padding-bottom: 50px;
+	}
+	.mainBlock {
+		margin-top: 10px;
+	}
+	.mainBlock .wrapper{
+		padding: 0;
+	}
+	.work {
+		width: 300px;
+		height: 450px;
+		margin-bottom: 10px;
+	}
+	.service {
+		width: 300px;
+		height: 450px;		
+	}
+	.work .work-services, .service .work-services {
+    font-size: 16px;
+    padding: 0 10px;
+	}
 
 }
